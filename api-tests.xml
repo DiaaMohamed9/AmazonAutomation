@@ -1,0 +1,7 @@
+<suite name="API Test Suite">
+    <test name="API Tests">
+        <classes>
+            <class name="com.amazon.test.api.ApiTests"/>
+        </classes>
+    </test>
+</suite>

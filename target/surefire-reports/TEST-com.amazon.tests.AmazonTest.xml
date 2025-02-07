@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.amazon.tests.AmazonTest" time="100.675" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="/Users/diaa/.cache/selenium/chromedriver/mac-arm64/132.0.6834.159/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/diaa/Downloads/AmazonAutomation/target/test-classes:/Users/diaa/Downloads/AmazonAutomation/target/classes:/Users/diaa/.m2/repository/io/github/bonigarcia/webdrivermanager/5.7.0/webdrivermanager-5.7.0.jar:/Users/diaa/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/diaa/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/diaa/.m2/repository/com/github/docker-java/docker-java/3.3.5/docker-java-3.3.5.jar:/Users/diaa/.m2/repository/com/github/docker-java/docker-java-core/3.3.5/docker-java-core-3.3.5.jar:/Users/diaa/.m2/repository/com/github/docker-java/docker-java-api/3.3.5/docker-java-api-3.3.5.jar:/Users/diaa/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/diaa/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/diaa/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/diaa/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/diaa/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/diaa/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/diaa/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/diaa/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.5/docker-java-transport-httpclient5-3.3.5.jar:/Users/diaa/.m2/repository/com/github/docker-java/docker-java-transport/3.3.5/docker-java-transport-3.3.5.jar:/Users/diaa/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/diaa/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/diaa/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/diaa/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/Users/diaa/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/diaa/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/diaa/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/diaa/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-java/4.28.1/selenium-java-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-api/4.28.1/selenium-api-4.28.1.jar:/Users/diaa/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.28.1/selenium-chrome-driver-4.28.1.jar:/Users/diaa/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.28.1/selenium-chromium-driver-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-json/4.28.1/selenium-json-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.28.1/selenium-manager-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.28.1/selenium-devtools-v130-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.28.1/selenium-devtools-v131-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.28.1/selenium-devtools-v132-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.28.1/selenium-devtools-v85-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.28.1/selenium-edge-driver-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.28.1/selenium-firefox-driver-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-http/4.28.1/selenium-http-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.28.1/selenium-ie-driver-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.28.1/selenium-remote-driver-4.28.1.jar:/Users/diaa/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/diaa/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/diaa/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/diaa/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/diaa/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/diaa/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/diaa/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/diaa/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-os/4.28.1/selenium-os-4.28.1.jar:/Users/diaa/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.28.1/selenium-safari-driver-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-support/4.28.1/selenium-support-4.28.1.jar:/Users/diaa/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/diaa/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/diaa/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Riyadh"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="EG"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/diaa/Downloads/AmazonAutomation/target/surefire/surefirebooter-20250207234637110_3.jar /Users/diaa/Downloads/AmazonAutomation/target/surefire 2025-02-07T23-46-37_058-jvmRun1 surefire-20250207234637110_1tmp surefire_0-20250207234637110_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/diaa/Downloads/AmazonAutomation/target/test-classes:/Users/diaa/Downloads/AmazonAutomation/target/classes:/Users/diaa/.m2/repository/io/github/bonigarcia/webdrivermanager/5.7.0/webdrivermanager-5.7.0.jar:/Users/diaa/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/diaa/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/diaa/.m2/repository/com/github/docker-java/docker-java/3.3.5/docker-java-3.3.5.jar:/Users/diaa/.m2/repository/com/github/docker-java/docker-java-core/3.3.5/docker-java-core-3.3.5.jar:/Users/diaa/.m2/repository/com/github/docker-java/docker-java-api/3.3.5/docker-java-api-3.3.5.jar:/Users/diaa/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/diaa/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/diaa/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/diaa/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/diaa/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/diaa/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/diaa/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/diaa/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.5/docker-java-transport-httpclient5-3.3.5.jar:/Users/diaa/.m2/repository/com/github/docker-java/docker-java-transport/3.3.5/docker-java-transport-3.3.5.jar:/Users/diaa/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/diaa/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/diaa/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/diaa/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/Users/diaa/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/diaa/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/diaa/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/diaa/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-java/4.28.1/selenium-java-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-api/4.28.1/selenium-api-4.28.1.jar:/Users/diaa/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.28.1/selenium-chrome-driver-4.28.1.jar:/Users/diaa/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.28.1/selenium-chromium-driver-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-json/4.28.1/selenium-json-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.28.1/selenium-manager-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.28.1/selenium-devtools-v130-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.28.1/selenium-devtools-v131-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.28.1/selenium-devtools-v132-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.28.1/selenium-devtools-v85-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.28.1/selenium-edge-driver-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.28.1/selenium-firefox-driver-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-http/4.28.1/selenium-http-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.28.1/selenium-ie-driver-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.28.1/selenium-remote-driver-4.28.1.jar:/Users/diaa/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/diaa/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/diaa/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/diaa/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/diaa/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/diaa/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/diaa/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/diaa/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/diaa/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-os/4.28.1/selenium-os-4.28.1.jar:/Users/diaa/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.28.1/selenium-safari-driver-4.28.1.jar:/Users/diaa/.m2/repository/org/seleniumhq/selenium/selenium-support/4.28.1/selenium-support-4.28.1.jar:/Users/diaa/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/diaa/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/diaa/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/diaa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-21.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/diaa/Downloads/AmazonAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/diaa/Downloads/AmazonAutomation/target/surefire/surefirebooter-20250207234637110_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-58"/>
+    <property name="user.name" value="diaa"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/diaa/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/0k/6xc0xvrj6hd_lkh67lr5t1j80000gn/T/"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="/Users/diaa/Downloads/AmazonAutomation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/diaa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testAmazonShoppingFlow" classname="com.amazon.tests.AmazonTest" time="78.758">
+    <system-out><![CDATA[Starting addAffordableItemsToCart test...
+Normal click failed. Trying JavaScript click for: By.xpath: //li//a[text()='All Video Games']
+Element not found within the given wait time: By.xpath: //*[@id='nav-cart-count' and text()='1']
+Dialog did not appear, continuing normally.
+Added item: Samsung R960 Galaxy Watch 6 Classic 47mm, Silver with price: 12500.0
+Added item: JBL Quantum ONE Over Ear Gaming Headset with Noise Canceling and Microphone - Black, Wired with price: 12099.0
+Added item: Nintendo Switch Lite (Coral) with price: 11900.0
+Added item: PXN-V99 Gaming steering wheel, 270/900°3nm force feedback Racing steering wheel, disassembly, with Hall magnetic induction pedal, 6+1 gear shift rod game racing steering wheel for PS4/PS3/Xbox One, with price: 11809.0
+Added item: Razer BlackWidow V4 75% Mechanical Gaming Keyboard: Hot Swappable Design - Compact & Durable - Orange Tactile Switches - Chroma RGB - Roller & Media Keys - Wrist Rest - Snap Tap - White with price: 10999.0
+Added item: SAMSUNG 32 Inch Odyssey G5 Gaming Monitor with 1000R Curved Screen, 144Hz, 1ms, FreeSync Premium, QHD (LC32G55TQWMXZN), Black with price: 10499.0
+Added item: Gigabyte GIGBAYTE B760 DS3H AX with price: 10499.0
+Added item: ASTRO Gaming A40 TR Wired Headset + MixAmp Pro TR with Dolby Audio for PlayStation 5, PlayStation 4, PC, Mac - Black/Blue (Renewed) with price: 9999.0
+Added item: BenQ ZOWIE XL2411K 24 inch 144Hz Esports Gaming Monitor | Dynamic Accuracy & Black eQualizer & Color Vibrance | XL Settings to Share | Height Adjustable Stand,Dark Grey with price: 8990.0
+Added item: Razer Kraken V3 Wired USB Gaming Headset: Triforce Titanium 50mm Drivers - THX Spatial Audio - Chroma RGB Lighting - Hybrid Fabric & Leatherette Memory Foam Cushions - Detachable HyperClear Mic with price: 8500.0
+Added item: Razer BlackWidow V4 X - Fortnite Edition Mechanical Gaming Keyboard with RGB (Yellow Switches, 6 custom macro keys, Doubleshot ABS keycaps) QWERTY US-Layout | Fortnite with price: 8499.0
+Added item: HP OMEN Mindframe2 BLK Headset, Wired with price: 8206.0
+Added item: Logitech Brio 500 Full HD Webcam with Auto Light Correction, show Mode, Dual Noise Reduction Mics, Webcam Privacy Cover, Works with Microsoft Teams, Google Meet, Zoom, USB-C Cable, Streaming -Graphite with price: 8200.0
+Added item: Razer DeathAdder V3 Pro Wireless Gaming Mouse: 64g Ultra Lightweight - Focus Pro 30K Optical Sensor - Fast Optical Switches Gen-3 - HyperSpeed Wireless - 5 Programmable Buttons - 90 Hr Battery - White with price: 7999.0
+Added item: Razer Basilisk V3 Pro - Customizable Wireless Gaming Mouse with Razer HyperScroll Tilt Wheel (Focus Pro 30K Optical Sensor, 13-Zone Chroma Lighting, 10+1 Programmable Buttons) White with price: 7999.0
+Added item: WD BLACK P10 Game Drive - 5TB External Hard Drive for Gaming, USB 3.2, Up to 130MB/s Speed, Compatible with PC, PlayStation, and Xbox with price: 7703.0
+Added item: LEVOIT Top Fill Humidifiers for Bedroom (2.5L Large Tank), Cool Mist Ultrasonic Air Humidifier for Home Baby Nursery & Plants, Auto Shut-off and BPA-Free for Safety, Quiet, Knob Control, 360° Nozzle with price: 7700.0
+Added item: Razer Huntsman V2 TKL Tenkeyless Gaming Keyboard: Fast Clicky Optical Switches w/Quick Keystrokes & 8000Hz Polling Rate - Detachable Type-C Cable - Doubleshot PBT Keycaps - Ergonomic Wrist Rest with price: 7499.0
+Added item: Razer Huntsman Elite Gaming Keyboard Optical Switch Purple Switches Ever Clicky - Chroma RGB Lighting - Magnetic Plush Wrist Rest - Dedicated Media Keys & Dial with price: 7499.0
+Added item: Razer Huntsman Mini (Analog Switch) - 60% Compact Gaming Keyboard (Analog Switches, Doubleshot PBT Keycaps, Detachable USB-C Cable) US Layout | Black with price: 7499.0
+Added item: Razer Seiren V3 Chroma - RGB USB Microphone - Supercardioid Condenser Microphone with Tap-to-Mute (Reactive Lighting, Digital Gain Limiter and Integrated Shock Absorber) White with price: 7499.0
+Added item: Logitech G PRO X Gaming Headset (2nd Generation) with Blue Voice, DTS Headphone 7.1 and 50 mm PRO-G Drivers, for PC, Xbox One, Xbox Series X|S,PS5,PS4, Nintendo Switch - Black with price: 7499.0
+Added item: WD_BLACK P10 Game Drive 4TB - for On-The-Go Access To Your Game Library - Works with Console or PC with price: 7479.0
+Added item: Razer BlackWidow V3 Mechanical Gaming Keyboard: Yellow Mechanical Switches - Linear & Silent - Chroma RGB Lighting - Compact Form Factor - Programmable Macro Functionality, Classic Black with price: 6999.0
+Added item: Razer BlackWidow V3 Mechanical Gaming Keyboard: Green Mechanical Switches - Tactile & Clicky - Chroma RGB Lighting - Compact Form Factor - Programmable Macro Functionality, Classic Black with price: 6999.0
+Added item: Razer Cobra Pro - Customizable Wireless Gaming Mouse with Razer Chroma RGB (10 Customizable Controls, 11-Zone Chroma Lighting, Focus Pro 30K Optical Sensor, HyperSpeed Wireless) Black with price: 6999.0
+Added item: PUMA Girl's Carina 2.0 Trolls Ps Sneaker with price: 6679.0
+Added item: Razer Huntsman Mini Linear Optical Switches(Red), 60% Gaming Keyboard, Chroma RGB Lighting, PBT Keycaps, Onboard Memory - Black with price: 6499.0
+Added item: Logitech G613 LIGHTSPEED Wireless Mechanical Gaming Keyboard, Multihost 2.4 GHz + Blutooth Connectivity - Black with price: 6299.0
+Added item: Lenovo Legion H500 Pro 7.1 Surround Sound Gaming Headset. with price: 6199.0
+Element not found within the given wait time: By.xpath: //*[@id='nav-cart-count' and text()='31']
+Dialog did not appear, continuing normally.
+All items added to cart:
+Item Name: B0CDTSNHQP, Price: 12500.0
+Item Name: B07PDFBJZD, Price: 7499.0
+Item Name: B07DHNX18W, Price: 7499.0
+Item Name: B0D31XQVRS, Price: 8499.0
+Item Name: B0BGL7BYKD, Price: 7999.0
+Item Name: B0C2C9NHZW, Price: 7700.0
+Item Name: B07W5JKKFJ, Price: 8200.0
+Item Name: B09HJYCX5X, Price: 8500.0
+Item Name: B07796MBJ7, Price: 6299.0
+Item Name: B0CCG2KHCB, Price: 10999.0
+Item Name: B09ZLWH31W, Price: 7999.0
+Item Name: B0CQQBZJF2, Price: 11809.0
+Item Name: B085SKC29S, Price: 11900.0
+Item Name: B07VNTFK87, Price: 7479.0
+Item Name: B0CC6SQYX7, Price: 9999.0
+Item Name: B0CVSLQYDM, Price: 7499.0
+Item Name: B07SCPBC1B, Price: 6199.0
+Item Name: B08HJ2T1JK, Price: 8990.0
+Item Name: B07VNTFHD5, Price: 7703.0
+Item Name: B083X2BM2C, Price: 12099.0
+Item Name: B098V13J4Q, Price: 10499.0
+Item Name: B07WW91FVX, Price: 8206.0
+Item Name: B09LYWYDX4, Price: 7499.0
+Item Name: B0C33MPSYM, Price: 6679.0
+Item Name: B0BVKZ4DLT, Price: 10499.0
+Item Name: B09C12Q8DX, Price: 7499.0
+Item Name: B08FQPLCNC, Price: 6999.0
+Item Name: B08FQR969J, Price: 6999.0
+Item Name: B089SP45YC, Price: 6499.0
+Item Name: B0C61F4R8Q, Price: 6999.0
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

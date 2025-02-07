@@ -1,0 +1,8 @@
+com/amazon/pages/BasePage.class
+com/amazon/utils/ElementWrapper.class
+com/amazon/utils/Helpers.class
+com/amazon/pages/CartPage.class
+com/amazon/pages/HomePage.class
+com/amazon/pages/LoginPage.class
+com/amazon/pages/VideoGamesPage.class
+com/amazon/pages/CheckoutPage.class

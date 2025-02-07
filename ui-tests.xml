@@ -1,0 +1,7 @@
+<suite name="UI Test Suite">
+    <test name="UI Tests">
+        <classes>
+            <class name="com.amazon.test.ui.AmazonTest"/>
+        </classes>
+    </test>
+</suite>
