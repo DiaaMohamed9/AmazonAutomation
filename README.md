@@ -4,6 +4,9 @@
 
 This project automates an Amazon shopping flow using Selenium WebDriver with Java and includes API tests using RestAssured.
 
+## video
+https://drive.google.com/file/d/1vq3G39o7Fz_YF1H5efFpYIk73nQO3sQZ/view?usp=sharing
+
 ## Prerequisites
 
 - Install **Java (JDK 8 or later)**
